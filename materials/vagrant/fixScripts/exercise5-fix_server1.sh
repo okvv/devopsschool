@@ -1,6 +1,6 @@
 #!/bin/bash
 #add fix to exercise5-server1 here
-sudo tee -a /home/vagrant/.ssh/config > /dev/null <<EOT
+sudo /usr/bin/tee -a /home/vagrant/.ssh/config > /dev/null <<EOT
 Host server2
   HostName 192.168.60.11
   User vagrant
